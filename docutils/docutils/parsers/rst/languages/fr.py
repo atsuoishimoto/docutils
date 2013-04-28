@@ -67,6 +67,7 @@ directives = {
       u'liens': 'target-notes',
       u'header (translation required)': 'header',
       u'footer (translation required)': 'footer',
+      u'no-inline-delimiters': 'no-inline-delimiters',
       #u'footnotes (translation required)': 'footnotes',
       #u'citations (translation required)': 'citations',
       }

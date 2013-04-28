@@ -489,6 +489,31 @@ class Date(Directive):
         return [nodes.Text(text)]
 
 
+class NoInlineDelimiters(Directive):
+
+    """This directive is useful only for testing purposes."""
+
+    required_arguments = 1
+    optional_arguments = 0
+
+    def run(self):
+        if self.arguments[0] == 'yes':
+            flag = 1
+        elif self.arguments[0] == 'no':
+            flag = 0
+        else:
+            raise self.error(
+                'Value for "%s" directive should be "yes" or "no": "%s"'
+                % (self.name, self.arguments[0]))
+
+        # update no_inline_delimiters
+        settings = self.state.document.settings
+        settings.no_inline_delimiters = flag
+
+        # rebuild inline markup parser for current settings.
+        self.state.inliner.init_customizations(settings)
+        return []
+
 class TestDirective(Directive):
 
     """This directive is useful only for testing purposes."""

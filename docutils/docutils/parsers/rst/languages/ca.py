@@ -73,6 +73,7 @@ directives = {
       #'citations': 'citations',
       u'notes-amb-destinacions': 'target-notes',
       u'notes-destinacions': 'target-notes',
+      u'no-inline-delimiters': 'no-inline-delimiters',
       u'directiva-de-prova-de-restructuredtext': 'restructuredtext-test-directive'}
 """Catalan name to registered (in directives/__init__.py) directive name
 mapping."""

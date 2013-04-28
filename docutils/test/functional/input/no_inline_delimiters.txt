@@ -1,0 +1,25 @@
+ab*cd*ef
+
+ab\*cd*e*f
+
+ab*cd\*e*f
+
+ab**cd**ef
+
+abc_def
+
+abc\_def
+
+.. no-inline-delimiters:: no
+
+ab*cd*ef
+
+ab\*cd*e*f
+
+.. no-inline-delimiters:: yes
+
+ab*cd*ef
+
+ab\*cd*e*f
+
+.. no-inline-delimiters:: NO

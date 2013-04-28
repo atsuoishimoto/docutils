@@ -81,6 +81,7 @@ directives = {
     #u'脚注': 'footnotes',             # 脚註?
     #u'サイテーション': 'citations',　　　# 出典　引証　引用
     u'ターゲットノート': 'target-notes', # 的注　的脚注
+    u'no-inline-delimiters': 'no-inline-delimiters',
     }
 """Japanese name to registered (in directives/__init__.py) directive name
 mapping."""

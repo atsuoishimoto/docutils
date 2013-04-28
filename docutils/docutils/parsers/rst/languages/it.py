@@ -67,6 +67,7 @@ directives = {
       'piede-pagina': 'footer',
       #'footnotes': 'footnotes',
       #'citations': 'citations',
+      'no-inline-delimiters': 'no-inline-delimiters',
       'restructuredtext-test-directive': 'restructuredtext-test-directive'}
 """Italian name to registered (in directives/__init__.py) directive name
 mapping."""

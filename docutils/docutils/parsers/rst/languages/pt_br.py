@@ -66,6 +66,7 @@ directives = {
       #u'notas-de-rorap\u00E9': 'footnotes',
       #u'cita\u00E7\u00F5es': 'citations',
       u'links-no-rodap\u00E9': 'target-notes',
+      'no-inline-delimiters': 'no-inline-delimiters',
       'restructuredtext-test-directive': 'restructuredtext-test-directive'}
 """Brazilian Portuguese name to registered (in directives/__init__.py)
 directive name mapping."""

@@ -68,6 +68,7 @@ directives = {
       #'voetnoten': 'footnotes',
       #'citaten': 'citations',
       'verwijzing-voetnoten': 'target-notes',
+      'no-inline-delimiters': 'no-inline-delimiters',
       'restructuredtext-test-instructie': 'restructuredtext-test-directive'}
 """Dutch name to registered (in directives/__init__.py) directive name
 mapping."""

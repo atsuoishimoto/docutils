@@ -63,6 +63,7 @@ directives = {
       u'cie\xbeov\xe9-pozn\xe1mky': 'target-notes',
       u'header (translation required)': 'header',
       u'footer (translation required)': 'footer',
+      u'no-inline-delimiters': 'no-inline-delimiters',
       #u'footnotes': 'footnotes',
       #u'citations': 'citations',
       }

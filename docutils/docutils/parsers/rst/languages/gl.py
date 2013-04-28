@@ -69,6 +69,7 @@ directives = {
       #'footnotes': 'footnotes',
       #'citations': 'citations',
       u'notas-destino': 'target-notes',
+      'no-inline-delimiters': 'no-inline-delimiters',
       u'texto restruturado-proba-directiva': 'restructuredtext-test-directive'}
 """Galician name to registered (in directives/__init__.py) directive name
 mapping."""

@@ -65,6 +65,7 @@ directives = {
       #'voetnote': 'footnotes',
       #'aanhalings': 'citations',
       'teikennotas': 'target-notes',
+      'no-inline-delimiters': 'no-inline-delimiters',
       'restructuredtext-test-directive': 'restructuredtext-test-directive'}
 """Afrikaans name to registered (in directives/__init__.py) directive name
 mapping."""

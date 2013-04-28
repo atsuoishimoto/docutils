@@ -70,9 +70,11 @@ directives = {
       u'sekcia-numerado': 'sectnum',
       u'kapsekcio': 'header',
       u'piedsekcio': 'footer',
+      u'no-inline-delimiters': 'no-inline-delimiters',
       #'footnotes': 'footnotes',
       #'citations': 'citations',
       u'celaj-notoj': 'target-notes',
+      u'no-inline-delimiters': 'no-inline-delimiters',
       u'restructuredtext-test-directive': 'restructuredtext-test-directive'}
 """Esperanto name to registered (in directives/__init__.py) directive name
 mapping."""

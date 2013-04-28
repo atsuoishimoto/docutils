@@ -142,6 +142,11 @@ class Parser(docutils.parsers.Parser):
           'one of "yes", "no", "alt[ernative]" (default "no").',
           ['--smart-quotes'],
           {'default': False, 'validator': frontend.validate_ternary}),
+         ('Recognize inline markups without word boundaries. '
+          'Disabled by default.',
+          ['--no-inline-delimiters'],
+          {'action': 'store_true', 'default': False,
+           'dest': 'no_inline_delimiters'}),
         ))
 
     config_section = 'restructuredtext parser'

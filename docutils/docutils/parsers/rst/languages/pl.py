@@ -66,6 +66,7 @@ directives = {
       #'footnotes': 'footnotes',
       #'citations': 'citations',
       u'target-notes': 'target-notes',  # FIXME no polish equivalent?
+      'no-inline-delimiters': 'no-inline-delimiters',
       u'restructuredtext-test-directive': 'restructuredtext-test-directive'}
 """Polish name to registered (in directives/__init__.py) directive name
 mapping."""

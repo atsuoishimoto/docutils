@@ -67,6 +67,7 @@ directives = {
       #'footnotes (translation required)': 'footnotes',
       #'citations (translation required)': 'citations',
       'target-notes (translation required)': 'target-notes',
+      'no-inline-delimiters': 'no-inline-delimiters',
       'restructuredtext-test-directive': 'restructuredtext-test-directive'}
 """Traditional Chinese name to registered (in directives/__init__.py)
 directive name mapping."""

@@ -70,6 +70,7 @@ directives = {
       u'linkziel-fußfnoten': 'target-notes',
       u'header (translation required)': 'header',
       u'footer (translation required)': 'footer',
+      u'no-inline-delimiters': 'no-inline-delimiters',
       #u'fußfnoten': 'footnotes',
       #'zitate': 'citations',
       }

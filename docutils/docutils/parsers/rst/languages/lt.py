@@ -67,6 +67,7 @@ directives = {
       #'footnotes': 'footnotes',
       #'citations': 'citations',
       u'nutaikytos-pastaba': 'target-notes',
+      u'no-inline-delimiters': 'no-inline-delimiters',
       u'restructuredtext-testinė-direktyva': 'restructuredtext-test-directive'}
 """Lithuanian name to registered (in directives/__init__.py) directive name
 mapping."""

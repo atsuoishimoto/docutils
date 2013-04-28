@@ -111,6 +111,7 @@ directives = {
       'dummy footer': 'footer',
       #'dummy footnotes': 'footnotes',
       #'dummy citations': 'citations',
+      'dummy no-inline-delimiters': 'no-inline-delimiters',
       'dummy target-notes': 'target-notes',
       'dummy restructuredtext-test-directive': 'restructuredtext-test-directive'}
 """English name to registered (in directives/__init__.py) directive name

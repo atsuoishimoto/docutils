@@ -78,6 +78,7 @@ directives = {
       u'pie': 'footer',
       #'footnotes': 'footnotes',
       #'citations': 'citations',
+      u'no-inline-delimiters': 'no-inline-delimiters',
       u'restructuredtext-test-directive': 'restructuredtext-test-directive'}
 """Spanish name to registered (in directives/__init__.py) directive name
 mapping."""

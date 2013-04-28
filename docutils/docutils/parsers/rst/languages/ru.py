@@ -59,7 +59,9 @@ directives = {
  u'тема': u'topic',
  u'эпиграф': u'epigraph',
  u'header (translation required)': 'header',
- u'footer (translation required)': 'footer',}
+ u'footer (translation required)': 'footer',
+ u'no-inline-delimiters': 'no-inline-delimiters',
+ }
 """Russian name to registered (in directives/__init__.py) directive name
 mapping."""
 

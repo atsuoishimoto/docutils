@@ -66,6 +66,7 @@ directives = {
       #'footnotes': 'footnotes',
       #'citations': 'citations',
       u'target-notes (translation required)': 'target-notes',
+      u'no-inline-delimiters': 'no-inline-delimiters',
       u'restructuredtext-test-directive': 'restructuredtext-test-directive'}
 """Czech name to registered (in directives/__init__.py) directive name
 mapping."""
